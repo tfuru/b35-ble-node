@@ -12,10 +12,9 @@ var BleCallback = function(){};
 BleCallback.prototype.b35parse = function(data){
     //+0648 11@
     var cel = data.toString().replace(/\r?\n/g,'').split(' ');
-    var row = {'time':'','value':'000','unit':'A'};
+    var row = {'time':'','A':'000'};
     row['time']  = (new Date()).getTime();
-    row['value'] = parseInt(cel[0])/1000;
-    row['unit']  = 'A';
+    row['A'] = parseInt(cel[0])/1000;
     
     return row;
 };
