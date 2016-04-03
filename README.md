@@ -7,15 +7,16 @@ BLEに対応している OWON Digital Multimeter B35 から BLE経由でデー�
 - google-spreadsheet
 
 ## Digital Multimeter B35
-OWON Digital Multimeter B35のBLE情報  
-|UUID|プロパティ|備考|  
-|:---|:---|:---|  
-|FFF0||B35のサービス|  
-|FFF1|Read||  
-|FFF2|Read||  
-|FFF3|Write||  
-|FFF4|Notify|B35に表示されている値|  
-|FFF5|Write||  
+OWON Digital Multimeter B35のBLE情報
+
+|UUID|プロパティ|備考|
+|:-----|:----|:----|
+|FFF0||B35のサービスUUID|
+|FFF1|Read||
+|FFF2|Read||
+|FFF3|Write||
+|FFF4|Notify|B35に表示されている値|
+|FFF5|Write||
 
 ##node.jsでBLEを扱う
 (noble)[https://github.com/sandeepmistry/noble]  
