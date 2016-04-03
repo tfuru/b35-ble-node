@@ -23,9 +23,9 @@ OWON Digital Multimeter B35のBLE情報
 A Node.js BLE (Bluetooth Low Energy) central module
 
 ##Google スプレッドシート
-[google-spreadsheet](https://github.com/theoephraim/node-google-spreadsheet)
+[google-spreadsheet](https://github.com/theoephraim/node-google-spreadsheet)  
 Google Spreadsheet Data API for Node.js
 
 ##電流計測
-電流を計測する場合の回路例
+電流を計測する場合の回路例  
 (写真と図をここに入れる)
